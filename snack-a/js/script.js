@@ -15,3 +15,9 @@ function contaElementi(input) { // FUNZIONE PER CONTARE ELEMENTI ARRAY
     return i;
 }
 
+//Assegnamo aun una varabile il risultato della funzione
+
+let fuResult = contaElementi(inputArray);
+
+
+console.log("L'Array ha ", fuResult, "elementi");
