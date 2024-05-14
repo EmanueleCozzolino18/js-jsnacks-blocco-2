@@ -22,3 +22,18 @@ function contaElementi(input) {
     return i;
 }
 
+// funzione che rimuove l'ultimo elemento della coda
+
+function rimuoviDallaCoda(array1) {
+
+    const arrayNew = [];
+
+    for (let i = 0; i < contaElementi(array1) - 1; i++) {
+        arrayNew[i] = array1[i];
+    }
+
+    return arrayNew;
+}
+
+//Risultato
+console.log('Risultato', rimuoviDallaCoda(myDesktop));
